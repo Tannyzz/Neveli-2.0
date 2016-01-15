@@ -1,0 +1,48 @@
+.triang-effect{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 5%
+  }
+
+  to {
+    margin-left: 50%;
+    width: 5%;
+  }
+}
+.triang2-effect{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 10%
+  }
+
+  to {
+    margin-right: 15%;
+    width: 10%;
+  }
+}
+.triang1{
+  margin-left: 85%;
+  margin-top:-40%;
+}
+.triang2{
+  margin-top: -100%;
+  margin-left: 30%;
+}
+.triang3{
+  margin-top: -300%;
+  margin-left: 48%;
+}
+.triang4{
+  margin-top: -20%;
+  margin-left: 45%;
+}

@@ -1,0 +1,21 @@
+@font-face{
+    font-family: "naveli";
+    src: url("naveli.ttf") format("truetype");
+}
+@font-face{
+    font-family: "slogan";
+    src: url("Arista2-light.ttf") format("truetype");
+}
+@font-face{
+    font-family: "slogan-bold";
+    src: url("Arista.ttf") format("truetype");
+}
+.naveli{
+  font-family: "naveli";
+}
+.arista-bold{
+	font-family: "slogan-bold"
+}
+.arista{
+	font-family: "slogan"
+}

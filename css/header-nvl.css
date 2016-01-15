@@ -1,0 +1,14 @@
+.header-nvl{
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {transform:rotateZ(-20deg);}
+    25%  {transform:rotateZ(-120deg);}
+    50%  {transform:rotateZ(-230deg);}
+    100% {transform:rotateZ(-360deg);}
+}

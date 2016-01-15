@@ -1,0 +1,53 @@
+.stroke{
+	color: white;
+	letter-spacing: 0;
+	text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+.logo-nvl{
+	padding:2px;
+}
+
+.logo-header{
+	margin-left: 60%;
+	margin-top: 4%;	
+	transform:rotateZ(-360deg);
+}
+#video-background{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+.center{
+	margin: 0 auto;
+}
+.nav-nvl{
+	padding-top: 20px;
+}
+.icons-nav{
+	padding: 18px;
+}
+.encabezado{
+	margin: 0 auto;
+	font-size:100px;
+}
+.icon-tam{
+	color:#106B60;
+  
+ animation-duration: 5s;
+  animation-name: deslizaicon;
+}
+
+@keyframes deslizaicon {
+  0% {
+    margin-left: -1000%;
+    width: -300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%
+  }
+
+ transform: rotate(-5 deg);
+	
+}
